@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  #input {
+    margin-bottom: 20px;
+  }
+  
+  #output {
+    display: none;
+  }
+  
+  #output h2 {
+    margin-top: 0;
+  }
+  
+  #permutationsList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #permutationsList li:before {
+    content: "• ";
+  }
