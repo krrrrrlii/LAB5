@@ -1,15 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Прибыль</title>
-<link rel="stylesheet" type="text/css" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TypeScript task 1B</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<h1>Прибыль</h1>
-<p>Введите список цен акций через запятую:</p>
-<input type="text" id="input">
-<button onclick="calculateMaxProfit()">Рассчитать</button>
-<p>Максимальная прибыль: <span id="output"></span></p>
-<script src="script.js"></script>
+    <h2>Максимальная прибыль</h2>
+    <label for="input">Введите цены через запятую:</label>
+    <br><br>
+    <input type="text" id="input" size="50">
+    <br><br>
+    <button onclick="calculateMaxProfit()">Вычислить максимальную прибыль</button>
+    <br><br>
+    <div id="output">
+        <h3>Результат:</h3>
+    </div>
+
+    <script src="./build/index.js"></script>
 </body>
 </html>
+
