@@ -3,21 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Контейнер</title>
+    <title>TypeScript task 1с</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Контейнер</h1>
-        <div class="input-container">
-            <label for="inputData">Введите числа (через запятую):</label>
-            <input type="text" id="inputData" placeholder="Пример: 1,8,6,2,5,4,8,3,7">
-            <button id="calculateBtn">Вычислить</button>
-        </div>
-        <div id="result">
-            Максимальный объем воды: <span id="maxVolume">0</span>
-        </div>
-    </div>
-    <script src="script.js"></script>
+    <h2>Емкость с наибольшим количеством воды</h2>
+    <br>
+    <input type="text" id="input" size="50" placeholder="Введите числа через запятую">
+    <br><br>
+    <button onclick="calculateContainerVolume()">Вычислить</button>
+    <br><br>
+    <h3>Результат:</h3>
+    <div id="output"></div>
+
+    <script src="./build/index.js"></script>
 </body>
 </html>
